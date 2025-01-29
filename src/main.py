@@ -1,11 +1,11 @@
-# Acknowledging the use of website tools for additional help
+# Acknowledging the help of some  website tools for fixing code errors
 
 from datetime import datetime
 
 # Current date and time in required formatS
 current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+print(f"Current date and time: {current_time}")
 
 # Writing to version.md
-with open("version.md", "w") as file:
-    file.write(f"Current Date and Time: {current_time}")
-
+with open("../version.md", "w") as file:
+    file.write(f"Current date and time: {current_time}")
