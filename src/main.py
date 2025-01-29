@@ -1,4 +1,4 @@
-# Acknowledging the help of some  website tools for fixing code errors
+# Acknowledging the help of some website tools for fixing code errors
 
 from datetime import datetime
 
